@@ -1,0 +1,89 @@
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace ExpenseTracker.Services.Models.DTOs
+{
+    public class UserDto
+    {
+        public int InternalUserId { get; set; }
+        public string? UserLoginCode { get; set; }
+        public string? UserName { get; set; }
+        public string? UserPassword { get; set; }
+        public string? EmployeeCode { get; set; }
+        public int? LocationId { get; set; }
+        public int? BusinessUnit { get; set; }
+        public int? MangerId { get; set; }
+        public string? UserEmailId { get; set; }
+        public string? UserEntryCategory { get; set; }
+        public DateTime? JoinDate { get; set; }
+        public int? EmpTypeId { get; set; }
+        public int? Status { get; set; }
+        public int? RoleId { get; set; }
+        public bool? SelfTimeApproval { get; set; }
+        public bool? SelfExpApproval { get; set; }
+        public int? ApprovalBy { get; set; }
+        public int? TimeApprover { get; set; }
+        public int? ExpenseApprover { get; set; }
+        public int? EntryId { get; set; }
+        public int? ModifyId { get; set; }
+        public DateTime? EntryDate { get; set; }
+        public DateTime? ModifyDate { get; set; }
+        public int? DeleteId { get; set; }
+        public DateTime? DeleteDate { get; set; }
+        public string? LocationAccess { get; set; }
+        public string? LocationName { get; set; }
+        public int? DepartmentId { get; set; }
+        public string? DepartmentAccess { get; set; }
+        public string? DepartmentName { get; set; }
+        public string? BuAccess { get; set; }
+        public string? BuName { get; set; }
+        public string? UserAccess { get; set; }
+        public int? DivisionId { get; set; }
+        public string? DivisionAccess { get; set; }
+        public string? DivisionName { get; set; }
+        public int? ManagerId { get; set; }
+        public string? ManagerName { get; set; }
+        public bool? IsSharedAdminStaff { get; set; }
+        public string? RoleName { get; set; }
+        public string? SunT9Access { get; set; }
+        public string? CognosSegmentAccess { get; set; }
+        public string? CognosActivityAccess { get; set; }
+        public string? RoleAccess { get; set; }
+        public string? ItemAccess { get; set; }
+        public bool? IsSharedServiceStaff { get; set; }
+        public string? RoleAccessName { get; set; }
+        public int? DashboardId { get; set; }
+        public string? PrevPassword { get; set; }
+        public bool? IsLocked { get; set; }
+        public DateTime? PasswordModifyDate { get; set; }
+        public decimal? ApprovalLimit { get; set; }
+        public int? NoOfAttempt { get; set; }
+        public bool? IsAd { get; set; }
+        public int? DesignationId { get; set; }
+        public string? DesignationName { get; set; }
+        public int? EntityId { get; set; }
+        public string? EntityName { get; set; }
+        public string? BuSunCode { get; set; }
+        public decimal? MaxAdvOutLimit { get; set; }
+        public string? ReimbursementAccess { get; set; }
+        public string? EmpPeopleSoftCode { get; set; }
+        public string? EmpSunCode { get; set; }
+        public string? T1 { get; set; }
+        public string? T2 { get; set; }
+        public string? EmployeeCategory { get; set; }
+        public string? PanNo { get; set; }
+        public string? MobileNo { get; set; }
+        public string? JobCode { get; set; }
+        public string? AccountName { get; set; }
+        public string? AccountNo { get; set; }
+        public string? IfscCode { get; set; }
+        public string? BankName { get; set; }
+        public string? Branch { get; set; }
+        public decimal? FcApprovalLimit { get; set; }
+        public decimal? FcMaxAdvOutLimit { get; set; }
+        public int? MaxTvlLimit { get; set; }
+        public string? AdDomainCode { get; set; }
+        public string? RegionName { get; set; }
+        public bool? IsLocationHead { get; set; }
+        public bool? IsManagingDirector { get; set; }
+    }
+}

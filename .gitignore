@@ -4,3 +4,5 @@
 
 *.vsidx
 /NC.StorageProcessor/obj
+/DFrame.BankInterface.Services/obj
+*.suo
